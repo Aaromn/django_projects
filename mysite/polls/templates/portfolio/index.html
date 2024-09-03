@@ -18,10 +18,10 @@
 		<!-- Header -->
 			<header id="header"  style="background-image: url('{% static 'portfolio/images/bg.jpg' %});">
 				<div class="inner">
-					<a class="image avatar"><img src="{% static 'portfolio/images/avatar.jpg' %}" alt="" /></a>
+					<a class="image avatar"><img src="{% static 'portfolio/images/pfp.jpg' %}" alt="" /></a>
 					<h1><strong>Aaron España Rubio</strong><br />
-					Computer Science student at<br />
-					The University of Maryland</h1>
+					Computer Science Student at<br />
+					The University of Maryland, College Park</h1>
 					<ul class="labeled-icons" style="float: right">
 						<li>
 							<h3 class="icon solid fa-envelope" ><span class="label">Email</span></h3>
@@ -38,13 +38,12 @@
 						<header class="major">
 							<h2>About Me</h2>
 						</header>
-						<p>👋 Hello! I'm a passionate Computer Science student at the University of Maryland, College Park. Delving into the world of code has been my journey since 2021, sparked by the thrill of building my own PC. The sheer control and boundless creativity in programming has brought me immense joy and purpose unlike anything else.
-
-                        🚀 In my academic journey, I've embraced the challenges of coursework, honing my skills in C++ and Java. Beyond the classroom, my love for coding extends to personal projects, where I find joy and efficiency writing code in Python. Notably, this website itself is a product of my endeavors using the Python Django web framework.
-
-                        💡 When I'm not immersed in lines of code, you can catch me at the gym lifting weights and listening to an audio book or podcasts while doing some cardio. Additionally, my curiosity extends beyond tech – I spend my free time reading many history books, whether it be related to the history of technology, countries, or historical figures.
-
-                        Let's connect and explore the ever-evolving landscape of computer science together! 🌐
+						<p>I'm a passionate Computer Science student at the University of Maryland, College Park. Delving into the world of code has been my journey since 2021, sparked by the thrill of building my own PC. The sheer control and boundless creativity in programming has brought me immense joy and purpose unlike anything else.
+                        </p>
+                        <p>In my academic journey, I've embraced the challenges of coursework, honing my skills in C++ and Java. Beyond the classroom, my love for coding extends to personal projects, where I find joy and efficiency writing code in Python. Notably, this website itself is a product of my endeavors using the Python Django web framework.
+                        </p>
+                        <p>
+                        When I'm not writing code, you can catch me at the gym lifting weights and listening to an audio book or podcasts while doing some cardio. Additionally, my curiosity extends beyond tech – I spend my free time reading many history books, whether it be related to the history of technology, countries, or historical figures.
                         </p>
 
 						<a href="{% static 'portfolio/images/AaronEspana-Resume.docx' %}">My resume</a>
@@ -64,17 +63,23 @@
 								<h3 style="font-size: 1em; margin: 0 0 0.5em 0;">Space Fight</h3>
 								<p style="font-size: 0.8em;">A space invader clone made using Pygame with a cool boss battle at the end.</p>
 							</article>
-							<article class="work-item col-6 col-12-xsmall">
-								<a href="{% static 'portfolio/images/arch2.jpg' %}" class="image fit thumb"><img src = "{% static 'portfolio/images/arch.jpg' %}"alt="" /></a>
-								<h3 style="font-size: 1em; margin: 0 0 0.5em 0;">Arch Installation on a Chromebook</h3>
-								<p style="font-size: 0.8em;">Arch runs amazingly on a $400 Chromebook.</p>
-							</article>
 							</article>
 							<article class="col-6 col-12-xsmall">
 								<a href="https://github.com/Aaromn/django_projects" class="image fit thumb" target="_blank"><img src="{% static 'portfolio/images/django.jpg' %}" alt="" /></a>
 								<h3 style="font-size: 1em; margin: 0 0 0.5em 0;">Django Website</h3>
 								<p style="font-size: 0.8em;">This very website was created using the Django web framework.</p>
 							</article>
+							<article class="col-6 col-12-xsmall">
+								<a href="https://github.com/Aaromn/Jit" class="image fit thumb" target="_blank"><img src="{% static 'portfolio/images/Jit.png' %}" alt="" /></a>
+								<h3 style="font-size: 1em; margin: 0 0 0.5em 0;">Jit</h3>
+								<p style="font-size: 0.8em;">A re-creation of git.</p>
+							</article>
+							<article class="work-item col-6 col-12-xsmall">
+								<a href="{% static 'portfolio/images/arch2.jpg' %}" class="image fit thumb"><img src = "{% static 'portfolio/images/arch.jpg' %}"alt="" /></a>
+								<h3 style="font-size: 1em; margin: 0 0 0.5em 0;">Arch Installation on a Chromebook</h3>
+								<p style="font-size: 0.8em;">Arch runs amazingly on a $400 Chromebook.</p>
+							</article>
+
 						</div>
 					</section>
 
@@ -87,7 +92,7 @@
                             <h4 style="display: inline; float: right; margin: 0;">October 2020 – November 2021</h4>
                         </div>
                         <div>
-                            <p style = "margin-top: 50;">Managed the intake, organization, and storage of sensitive COVID-19 test tube samples and their respective documentation, ranging from 300 - 1200 samples received per hour, sent from hospitals, schools, and workplaces. Updated and created protected patient health information profiles linked to their respective COVID-19 sample test tubes in the company's online database, maintaining a creation rate of approximately 50 - 100 profiles per hour. Transported carts containing 800 - 1600 COVID-19 samples alongside their corresponding protected patient health documents from the company's office to the laboratory. Collaborated with lab staff to handle nightly sample influx and executed efficient office closing procedures.</p>
+                            <p style = "margin-top: 50;">Managed the intake, organization, and storage of sensitive COVID-19 test tube samples and their respective documentation, ranging from 300-1200 samples received per hour. Updated and created protected patient health information profiles linked to their respective COVID-19 test samples, maintaining a creation rate of approximately 50-100 profiles per hour. Transported carts containing 800-1600 COVID-19 samples alongside their corresponding protected patient health documents from the company's office to the laboratory. </p>
                         </div>
 
                         <div>
@@ -95,15 +100,22 @@
                             <h4 style="display: inline; float: right; margin: 0;">September 2022 – September 2023</h4>
                         </div>
                         <div>
-                            <p style = "margin-top: 20;">Processed payments in-person, online, and over the phone. Conducted client calls to gather tax information for preparers, schedule appointments with the company's CPA and tax preparers, and to assist with client technical issues and inquiries. Efficiently followed company protocol while organizing and managing clients' tax documents through digital and physical means. Solely managed mail forwarding for 150 LLCs, ensuring precise and timely distribution. Automated tax extension creation for multiple states using Drake Tax Software macros, streamlining workflows, and enabling non-specialized employees to efficiently generate extensions. Collaborated with the company's IT specialist to address on-site tasks, tackling diverse technology issues, including phone LAN problems, installing hardware components, resolving network issues, and supporting the company's domain transition.</p>
+                            <p style = "margin-top: 20;">Conducted client communications, including gathering tax information, scheduling appointments, processing payments, and resolving technical inquiries. Efficiently managed digital and physical tax documents, adhering to company protocols. Solely handled mail forwarding for 150 LLCs, ensuring precise and timely distribution through client coordination. Automated multi-state tax extension processes using Drake Tax Software macros, enhancing workflow efficiency by enabling non-specialized employees to efficiently generate tax extensions. Partnered with IT to resolve diverse technical issues, such as LAN, hardware installations, network troubleshooting, and supporting the company’s domain transition.</p>
                         </div>
 
                         <div>
                             <h4 style="display: inline;"><em>Lead Teacher</em>, Panda Programmer</h4>
-                            <h4 style="display: inline; float: right; margin: 0;">September 2023 – Now</h4>
+                            <h4 style="display: inline; float: right; margin: 0;">September 2023 – January 2024</h4>
                         </div>
                         <div>
-                            <p style = "margin-top: 10;">Achieved promotion to Lead Teacher within one month of employment. Led after-school classes for 10-30 students, overseeing one or two teachers at a time. Established effective communication with faculty and parents for orderly dismissals. Instructed elementary and middle school students in specialized after-school sessions, imparting programming skills in Scratch, JavaScript, and Python. Consistently showcased commitment by arriving early at company headquarters to gather essential class materials, including laptops and student folders, before proceeding to the designated school location.</p>
+                            <p style = "margin-top: 10;">Achieved promotion to Lead Teacher within one month of employment. Led after-school classes for 10-30 students, overseeing one or two teachers at a time. Instructed elementary and middle school students, imparting programming skills in Scratch, JavaScript, and Python.</p>
+                        </div>
+                        <div>
+                            <h4 style="display: inline;"><em>Instep Software Development Intern</em>, Infosys</h4>
+                            <h4 style="display: inline; float: right; margin: 0;">July 2024 – September 2024</h4>
+                        </div>
+                        <div>
+                            <p style = "margin-top: 10;">Intern at Wongdoody, a subsidiary of Infosys. Conducted in-depth research on the OpenUSD file format to assess its potential for pipeline optimization. Developed a custom Autodesk Maya plugin enabling batch rendering of multiple files, streamlining the production workflow.</p>
                         </div>
                     </div>
                 </section>
@@ -114,7 +126,7 @@
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
-						<p>I'm currently looking for an internship over the summer of 2024. If you are looking for a computer science intern or know someone who is, feel free to reach out!</p>
+						<p>I'm currently looking for an internship over the summer of 2025. If you are looking for a computer science intern or know someone who is, feel free to reach out!</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
 								<form method="post" action="{% url 'send_message' %}">
@@ -133,12 +145,8 @@
 								<ul class="labeled-icons">
 									<li>
 										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										Takoma Park, MD 20912<br />
+										Silver Spring, MD 20912<br />
 										United States
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										443-679-0496
 									</li>
 									<li>
 										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
@@ -156,6 +164,7 @@
 					<ul class="icons">
 						<li><a href="{% static 'portfolio/images/AaronEspana-Resume.docx' %}" class="icon solid fa-file" target="_blank"><span class="label">Resume</span></a></li>
 						<li><a href="https://github.com/Aaromn" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="https://linkedin.com/in/aaron-españa-rubio-718227238" class="icon brands fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
 					</ul>
 				</div>
 			</footer>
